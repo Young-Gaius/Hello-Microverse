@@ -63,11 +63,10 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
-1- web browser
-2- git-syn
-3- code editor
+In order to run this project you need the following tools:
+- Browser
+- IDE(e.g.: Vscode,...)
+- Terminal
 
 ### Setup
 
@@ -77,32 +76,34 @@ https://github.com/Young-Gaius/Hello-Microverse
 
 ### Install
 
-Install this project with:
+- Install this project with:
 
-...sh
-  cd my-project
-  npm install
-  ...
+```sh
+  cd mv_hello-microverse
+
+  npm install or npm i
+```
 
 ### Usage
 
 To run the project, execute the following command:
 
-Open index.html using the the live-server
+```sh
+  Open the live server or Open the index.html file in your browser
 
-### Run tests
+```
+
+### Run Linters tests
 
 To run tests, run the following command:
 
+```sh
+  npx eslint . 
+  
+  npx stylelint "**/*.{css,scss}" --fix
 
-Example command:
-[ ] coming soon
+  ...
 
-### Deployment
-
-You can deploy this project using:
-
-[ ] coming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
