@@ -82,7 +82,7 @@ https://github.com/Young-Gaius/Hello-Microverse
   cd mv_hello-microverse
 
   npm install or npm i
-```
+
 
 ### Usage
 
@@ -91,7 +91,7 @@ To run the project, execute the following command:
 ```sh
   Open the live server or Open the index.html file in your browser
 
-```
+
 
 ### Run Linters tests
 
@@ -102,7 +102,8 @@ To run tests, run the following command:
   
   npx stylelint "**/*.{css,scss}" --fix
 
-  ...
+  
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
